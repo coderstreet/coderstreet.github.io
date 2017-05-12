@@ -2751,7 +2751,8 @@
 		}
 
 		#header img {
-
+			vertical-align: middle;
+			padding-bottom: 3px;
 		}
 
 			#header h1 a {
