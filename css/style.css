@@ -821,6 +821,13 @@ border: 2px solid #fff;
 	-webkit-transition:all 0.3s ease-in-out;
 }
 
+.res-nav_click svg {
+    display: inline-flex;
+    bottom: 6px;
+    left: 9px;
+    position: relative;
+}
+
 .res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
 	color: #0B76BB !important;
 }

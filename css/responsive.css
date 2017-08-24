@@ -51,8 +51,8 @@
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
 	.header{ padding:60px 0;}
-	.main-section{ padding:60px 0 70px;}
-	.main-nav{ display:none; position:absolute; left:0; width:100%; top:68px; margin:0 auto; flote : none; background:#fff;}
+	.main-section{ padding:30px 0 70px;}
+	.main-nav{ display:none; position:absolute; left:0; width:100%; top:69px; margin:0 auto; flote : none; background:#fff; z-index:99;}
 	.main-nav li{ display:block;}
 	.main-nav li.small-logo{ display:none;}
 	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
@@ -67,8 +67,8 @@
 	.main-section.team{ padding:60px 0 50px;}
 	.business-talking h2{ font-size:36px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
-	.contact-info-box span{ line-height:18px;}
-	.social-link{ margin-left:30px;} 
+	.contact-info-box span{ line-height:24px;}
+	.social-link{ margin:30px;} 
 	.form{ margin:0 30px;}
 	.copyright{ font-size:12px;}
 	.business-talking a{ padding:10px 25px; font-size:14px;}
@@ -95,7 +95,7 @@
 	/****Mobile Portrait 320 ****/
 	.contact-info-box{ margin-left:0px;}
 	.header{ padding:40px;}
-	.social-link{ margin-left:0px;}
+	.social-link{ margin:0 0 10px 100px;} 
 	.form{ margin:0}
 	.c-logo-part ul li{ display:block;}
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
