@@ -38,9 +38,6 @@
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
-	
-	 
-	
 }
 
 @media only screen and (max-width: 767px) {
@@ -55,7 +52,7 @@
 	.header h1{ font-size:28px;}
 	.header{ padding:60px 0;}
 	.main-section{ padding:60px 0 70px;}
-	.main-nav{ display:none; position:absolute; left:0; width:100%; top:74px; margin:0 auto; flote : none; background:#fff;}
+	.main-nav{ display:none; position:absolute; left:0; width:100%; top:68px; margin:0 auto; flote : none; background:#fff;}
 	.main-nav li{ display:block;}
 	.main-nav li.small-logo{ display:none;}
 	.main-nav li a{ display:block; padding:7px 32px; border-bottom:none;}
@@ -87,7 +84,10 @@
 	.isotope{ width:400px; margin:0px auto;}
 	.Portfolio-box{}
 	.portfolioContainer{ width:350px; margin:0px auto !important; } */
-	.centeredOnMobile {text-align: center;}
+	.centeredOnMobile {
+		text-align: center; 
+		margin-right: 28px;
+	}
 	
 }
 
