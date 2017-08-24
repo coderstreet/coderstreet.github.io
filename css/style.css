@@ -619,7 +619,7 @@ border: 2px solid #fff;
 }
 .contact-info-box{
 	font-size:15px;
-	margin:0 0 14px 68px;
+	margin:0 0 20px 68px;
 	padding-left:0;
 }
 .contact-info-box h3{
@@ -643,9 +643,15 @@ border: 2px solid #fff;
 	display:block;
 	overflow:hidden;
 }
+
+.contact-info-box svg {
+    display: inline-flex;
+    bottom: -6px;
+    position: relative;
+}
+
 .social-link{
-	padding:35px 0;
-	margin:0 0 0 68px;
+	margin:0 0 0 28px;
 	display:block;
 	overflow:hidden;
 	list-style:none;
@@ -656,33 +662,33 @@ border: 2px solid #fff;
 }
 .social-link li a{
 	display:block;
-	width:50px;
-	height:50px;
+
 	text-align:center;
-	line-height:50px;
-	font-size:25px;
-	color:#fff;
-	background:#222222;
+	font-size:30px;
+	color:#000;
+	/*background:#222222;
 	border-radius:50%;
+		line-height:50px;
+	*/
 	transition:all 0.3s ease-in-out;
 }
 .social-link li a:hover, .social-link li a:focus{
 	text-decoration:none;
 }
 .twitter a:hover {
-	background: #55acee;
+	color: #55acee;
 }
 .facebook a:hover {
-	background: #3b5998;
+	color: #3b5998;
 }
 .github a:hover {
-	background: #777;
+	color: #777;
 }
 .gplus a:hover {
-	background: #dd4b39;
+	color: #dd4b39;
 }
 .dribbble a:hover {
-	background: #ea4c89;
+	color: #ea4c89;
 }
 
 .form{
